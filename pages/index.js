@@ -11,27 +11,27 @@ export default function Home() {
         </div>
         <div className='basis-11/12'>
           <div className='sm:text-2xl text-center sm:font-thin font-semibold text-3xl sm:text-left pb-8'>Login</div>
-          <table className='text-xl p-16'>
+          <table className='text-xl w-[80vw] sm:w-auto'>
             <tr className=''>
-              <td className='py-4 pr-8'>Full Name:</td>
+              <td className='py-4 pr-8 pl-12 sm:pl-0'>Full Name:</td>
               <td>
                 <input className='bg-transparent' placeholder='Name...'></input>
               </td>
             </tr>
             <tr>
-              <td className='py-4 pr-24'>Email:</td>
+              <td className='py-4 pr-24 pl-12 sm:pl-0'>Email:</td>
               <td>
                 <input className='bg-transparent' placeholder='Email...' type='email'></input>
               </td>
             </tr>
             <tr>
-              <td className='py-4'>Create Password:</td>
+              <td className='py-4 pl-12 sm:pl-0'>Create Password:</td>
               <td>
                 <input className='bg-transparent' placeholder='Password...' type='password'></input>
               </td>
             </tr>
             <tr className=''>
-              <td className='py-4 pr-16 pb-12'>Confirm password:</td>
+              <td className='py-4 pr-16 pb-12 pl-12 sm:pl-0'>Confirm password:</td>
               <td>
                 <input className='bg-transparent pr-16 pb-12' placeholder='Password...' type='password'></input>
               </td>
